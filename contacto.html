@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Encabezado con logo y navegación -->
     <header>
         <div class="container">
             <h1 class="logo">DrivePoint</h1>
@@ -26,27 +25,70 @@
             </nav>
         </div>
     </header>
-
-    <!-- Contenido principal -->
     <main>
-        <!-- Sección de Contacto -->
         <section class="contact-hero">
             <div class="container">
                 <h2>Contacto</h2>
                 <p>¿Tienes preguntas? Nos encantaría saber de ti. Contáctanos a través de nuestros canales disponibles.</p>
             </div>
         </section>
-
-        <!-- Sección de Formulario y Información -->
         <section class="contact-content">
             <div class="container">
-                <h2>Ponte en contacto con nosotros</h2>
-                <!-- Aquí irá el formulario de contacto -->
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h3>Envíanos un mensaje</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="asunto">Asunto</label>
+                                <input type="text" id="asunto" name="asunto" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <div class="info-item">
+                            <h4>📍 Ubicación</h4>
+                            <p>Calle Principal 123<br>Ciudad, Provincia 12345<br>País</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>📞 Teléfono</h4>
+                            <p><a href="tel:+34900123456">+34 900 123 456</a></p>
+                        </div>
+                        <div class="info-item">
+                            <h4>✉️ Email</h4>
+                            <p><a href="mailto:info@drivepoint.com">info@drivepoint.com</a></p>
+                        </div>
+                        <div class="info-item">
+                            <h4>🕐 Horario de Atención</h4>
+                            <p>Lunes a Viernes: 9:00 AM - 18:00 PM<br>Sábados: 10:00 AM - 15:00 PM<br>Domingos: Cerrado</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>🌐 Redes Sociales</h4>
+                            <p>
+                                <a href="#">Facebook</a> | 
+                                <a href="#">Twitter</a> | 
+                                <a href="#">Instagram</a> | 
+                                <a href="#">LinkedIn</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-
-    <!-- Pie de página -->
     <footer>
         <div class="container">
             <p>&copy; 2026 DrivePoint. Todos los derechos reservados.</p>

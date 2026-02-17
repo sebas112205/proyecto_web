@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Encabezado con logo y navegación -->
     <header>
         <div class="container">
             <h1 class="logo">DrivePoint</h1>
@@ -26,27 +25,135 @@
             </nav>
         </div>
     </header>
-
-    <!-- Contenido principal -->
     <main>
-        <!-- Sección Hero de Planes -->
         <section class="plans-hero">
             <div class="container">
                 <h2>Planes y Servicios</h2>
                 <p>Elige el plan que mejor se adapte a tus necesidades y comienza tu búsqueda hoy mismo.</p>
             </div>
         </section>
-
-        <!-- Sección de Planes -->
         <section class="plans-content">
             <div class="container">
                 <h2>Nuestros Planes</h2>
-                <!-- Aquí irán los planes disponibles -->
+                <p class="plans-intro">Elige el plan perfecto para tus necesidades. Todos nuestros planes incluyen acceso a la plataforma completa.</p>
+                
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <h3>Plan Básico</h3>
+                        <div class="plan-price">
+                            <span class="price">$9.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                        <p class="plan-description">Ideal para usuarios ocasionales que buscan vehículos esporádicamente.</p>
+                        <ul class="plan-features">
+                            <li>✓ Acceso a catálogo completo de vehículos</li>
+                            <li>✓ Búsqueda y filtrado básico</li>
+                            <li>✓ Visualización en mapa interactivo</li>
+                            <li>✓ Guardar hasta 10 favoritos</li>
+                            <li>✓ Información de contacto de concesionarias</li>
+                            <li>✗ Comparar vehículos</li>
+                            <li>✗ Alertas personalizadas</li>
+                            <li>✗ Soporte prioritario</li>
+                        </ul>
+                        <button class="btn-plan">Empezar Ahora</button>
+                    </div>
+                    <div class="plan-card featured">
+                        <div class="badge-popular">Más Popular</div>
+                        <h3>Plan Profesional</h3>
+                        <div class="plan-price">
+                            <span class="price">$19.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                        <p class="plan-description">Perfecto para compradores activos y profesionales del sector automotriz.</p>
+                        <ul class="plan-features">
+                            <li>✓ Acceso a catálogo completo de vehículos</li>
+                            <li>✓ Búsqueda y filtrado avanzado</li>
+                            <li>✓ Visualización en mapa interactivo</li>
+                            <li>✓ Guardar hasta 50 favoritos</li>
+                            <li>✓ Información de contacto de concesionarias</li>
+                            <li>✓ Comparar hasta 5 vehículos simultáneamente</li>
+                            <li>✓ Alertas personalizadas por preferencias</li>
+                            <li>✗ Soporte prioritario</li>
+                        </ul>
+                        <button class="btn-plan btn-primary">Empezar Ahora</button>
+                    </div>
+                    <div class="plan-card">
+                        <h3>Plan Premium</h3>
+                        <div class="plan-price">
+                            <span class="price">$34.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                        <p class="plan-description">Para usuarios empresariales y concesionarias que requieren máxymas funcionalidades.</p>
+                        <ul class="plan-features">
+                            <li>✓ Acceso a catálogo completo de vehículos</li>
+                            <li>✓ Búsqueda y filtrado avanzado</li>
+                            <li>✓ Visualización en mapa interactivo</li>
+                            <li>✓ Guardar favoritos sin límite</li>
+                            <li>✓ Información de contacto de concesionarias</li>
+                            <li>✓ Comparar ilimitados vehículos</li>
+                            <li>✓ Alertas personalizadas avanzadas</li>
+                            <li>✓ Soporte prioritario 24/7</li>
+                        </ul>
+                        <button class="btn-plan">Empezar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features-section">
+            <div class="container">
+                <h2>¿Por qué elegir DrivePoint?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h4>🔍 Búsqueda Inteligente</h4>
+                        <p>Encuentra exactamente lo que busca con filtros avanzados y búsqueda por proximidad geográfica.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>📍 Mapa Interactivo</h4>
+                        <p>Visualiza todos los vehículos en un mapa en tiempo real y navega entre concesionarias fácilmente.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>⚖️ Herramienta Comparativa</h4>
+                        <p>Compara múltiples vehículos lado a lado para tomar la mejor decisión de compra.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🔔 Alertas Personalizadas</h4>
+                        <p>Recibe notificaciones en tiempo real cuando aparecen nuevos vehículos que coinciden con tus criterios.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>💾 Favoritos Sincronizados</h4>
+                        <p>Guarda tus vehículos favoritos y accede a ellos desde cualquier dispositivo.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🤝 Soporte Dedicado</h4>
+                        <p>Nuestro equipo está disponible para ayudarte en tu búsqueda de vehículos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section">
+            <div class="container">
+                <h2>Preguntas Frecuentes</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h4>¿Puedo cambiar de plan en cualquier momento?</h4>
+                        <p>Sí, puedes cambiar o cancelar tu suscripción en cualquier momento sin penalización alguna. El cambio surtirá efecto en el próximo período de facturación.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Hay prueba gratuita disponible?</h4>
+                        <p>Ofrecemos una prueba gratuita de 7 días con acceso completo al Plan Básico. No se requiere tarjeta de crédito para registrarse.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Qué métodos de pago aceptan?</h4>
+                        <p>Aceptamos tarjetas de crédito (Visa, Mastercard, American Express), transferencia bancaria y billeteras digitales.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿El soporte premium está disponible 24/7?</h4>
+                        <p>Sí, los usuarios del Plan Premium tienen acceso a soporte prioritario disponible 24 horas, 7 días a la semana a través de chat, email y teléfono.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-
-    <!-- Pie de página -->
     <footer>
         <div class="container">
             <p>&copy; 2026 DrivePoint. Todos los derechos reservados.</p>
